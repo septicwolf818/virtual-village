@@ -10,4 +10,5 @@ Virtual village is a small browser survival game. Your goal is to survive for as
 -  <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>/<kbd>&uarr;</kbd><kbd>&larr;</kbd><kbd>&darr;</kbd><kbd>&rarr;</kbd> - Control character
 - <kbd>Q</kbd> - Use item
 - <kbd>E</kbd> - Open inventory
+- <kbd>Space</kbd> - Destroy/collect item 
 - <kbd>LMB</kbd> - Select item from inventory 
