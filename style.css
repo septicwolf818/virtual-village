@@ -1,0 +1,203 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#container {
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h3,
+h5,
+h6 {
+    text-align: center;
+    margin: 0;
+    color: #00d1ff;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 10px;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    margin: 30px auto;
+    display: block;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #00d1ff;
+    color: #00d1ff;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+button {
+    cursor: pointer;
+    user-select: none;
+    margin: 30px auto;
+    margin: auto;
+    display: block;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #00d1ff;
+    color: #00d1ff;
+    font-size: 20px;
+    text-align: center;
+}
+
+#setup {
+    display: block;
+}
+
+#game {
+    display: none;
+}
+
+#map {
+    float: left;
+    width: calc(100% - 256px);
+    height: 1000px;
+    margin: 20px 128px;
+    border: 1px solid #00d1ff;
+}
+
+
+
+#inventory {
+    display: none;
+    float: left;
+    width: calc(100% - 256px);
+    margin: 20px 128px;
+    border: 1px solid #00d1ff;
+}
+
+#clock {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    image-rendering: pixelated;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+#inventory p {
+    cursor: pointer;
+    line-height: 64px;
+    user-select: none;
+    font-size: 30px;
+}
+
+.tile {
+    image-rendering: pixelated;
+    float: left;
+    width: calc(10%);
+    height: 10%;
+    background-image: url(env/grass.png);
+    background-size: cover;
+
+}
+
+.env {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.rock {
+    background-image: url("env/rock.png");
+}
+
+.tree {
+    background-image: url("env/tree.png");
+
+}
+
+.wood {
+    background-image: url("env/wood.png");
+}
+
+.sapling {
+    background-image: url("env/sapling.png");
+}
+
+.tallgrass {
+    background-image: url("env/tallgrass.png");
+}
+
+.seeds {
+    background-image: url("env/seeds.png");
+}
+
+.wheat {
+    background-image: url("env/wheat.png");
+}
+
+
+.brick {
+    background-image: url("env/brick.png");
+}
+
+.player-d {
+    background-image: url("player/player-d.png");
+}
+
+.player-u {
+    background-image: url("player/player-u.png");
+}
+
+.player-l {
+    background-image: url("player/player-l.png");
+}
+
+.player-r {
+    background-image: url("player/player-r.png");
+}
+
+
+.ui {
+    float: left;
+    margin: 0;
+    background-size: cover;
+}
+
+.end-l {
+    background-image: url(ui/end-l.png);
+    width: 64px;
+    height: 4px;
+}
+
+.end-m {
+    background-image: url(ui/end-m.png);
+    width: calc(100% - 128px);
+    height: 4px;
+
+}
+
+.end-r {
+    background-image: url(ui/end-r.png);
+    width: 64px;
+    height: 4px;
+}
+
+.space {
+    height: 10px;
+    width: 100%;
+}
